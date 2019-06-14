@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.cynosurefinal.MainActivity">
+    id.support.constraint.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="@android:dimen/app_icon_size"
+    tools:context="com.example.dell.cynosure.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="330dp"
+        android:layout_height="121dp"
+        android:onClick="DisplayTemplateTextActivity"
+        android:text="Speed Reader"
+        android:textStyle="bold|italic"
+        tools:background="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="330dp"
+        android:layout_height="121dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Task Manager"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="330dp"
+        android:layout_height="121dp"
+        android:text="MOOD TRACKER"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold|italic"
+        tools:background="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    "
+
+</android.support.constraint.ConstraintLayout>
